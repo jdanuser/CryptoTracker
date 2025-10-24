@@ -14,7 +14,7 @@ from datetime import datetime
 crypto_ids_list = "https://api.coingecko.com/api/v3/coins/list"
 
 headers = {
-    "x-cg-demo-api-key" : "CG-sVDcZNtAoYfUVnW531RSBdeu"
+    "x-cg-demo-api-key" : "REDACTED"
 }
 
 
