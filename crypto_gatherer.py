@@ -65,7 +65,7 @@ class CryptoTicker:
 
     def get_info(self):
         url = "https://api.coingecko.com/api/v3/coins/" + self.cgid
-        headers = {"x-cg-demo-api-key" : "CG-sVDcZNtAoYfUVnW531RSBdeu"}
+        headers = {"x-cg-demo-api-key" : "REDACTED"}
         response = requests.get(url, headers=headers)
         return response.json()
     
